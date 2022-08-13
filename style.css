@@ -1,0 +1,80 @@
+
+.padding-150 {
+    padding:0 150px;
+}
+/* 
+@media (max-width:992px){
+    .padding-150 {
+        padding: 0;
+    }
+} */
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.header .nav-link {
+    color: rgba(1, 1, 1, 0.81);
+    font-size: 0.8em;
+    margin: 0 10px;
+}
+
+.carousel-caption {
+    text-align: left;
+    vertical-align: middle;
+}
+
+.bg-yellow {
+    background-color: #ffc107;
+}
+
+.services a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.xbox-overlay {
+    top: 0;
+    right: 90px;
+}
+
+.footer .nav-link {
+    color: black;
+    font-size: 0.8em;
+}
+
+@media (max-width:576px) {
+    .padding-150 {
+        padding: 0;
+    }
+}
+@media (max-width:768px) {
+    .padding-150 {
+        padding: 0;
+    }
+}
+@media (max-width:992px) {
+    .padding-150 {
+       padding: 0 20px;
+    }
+}
+@media (max-width:1200px) {
+}
+@media (max-width:1400px) {
+    .padding-150 {
+        padding: 0 50px;
+    }
+
+    .service {
+        /* max-height: 60px; */
+        /* max-width: 125px; */
+        /* margin-top: 40px; */
+    }
+
+    .service-text {
+        font-size: 0.7em;
+    }
+
+}
